@@ -14,3 +14,7 @@ primer = gets.chomp.to_i
 puts 'Indique el segundo número: '
 segundo = gets.chomp.to_i
 puts "La suma de los número es: #{primer+segundo}"
+
+puts 'Hola "mundo'
+
+puts "Este es el final del programa"
