@@ -7,25 +7,23 @@ name = gets.chomp
 
 puts "Hola \"#{name}\""
 
-puts 'Vamos a calcular su BMI... '
+puts 'Vamos a adivinar un numero... '
 
-puts 'Indique su peso(kl): '
-peso = gets.chomp.to_f
-#numero =  Random.new.rand(1..10)
+numero =  Random.new.rand(1..10)
 
-puts 'Indique su altura(mtrs): '
-altura = gets.chomp.to_f
+3.times do |i|
+    puts 'Indique el número: '
+    primer = gets.chomp.to_i77
 
-bmi = peso / (altura * altura)
+end
 
-print "su indice BMI es: #{bmi} "
 
-if(bmi < 18.5)
-    puts " BAJA DE PESO!!!"
-elsif (bmi > 25)
-    puts " JAJAAJ SOBREPESO"
+
+print "El número del sistema es: #{numero} "
+if(numero == primer)
+    puts " ADIVINASTE!!!"
 else
-    puts " NORMAL"
+    puts " JAJAAJ Lo siento"
 end
 
 #puts 'Indique el segundo número: '
