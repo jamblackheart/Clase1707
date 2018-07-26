@@ -19,7 +19,7 @@ class Telefono
     end
 
     def agregarNumero(nombre, telefono)
-        File.open("directorio.txt", 'a') { |file| file.puts("#{nombre};#{telefono}") }
+        File.open("directorio.txt", 'a') { |file| file.puts(") }
         #File.write("directorio.txt", "#{nombre};#{telefono}")
         @directorio.push("#{nombre};#{telefono}")
 
@@ -129,7 +129,4 @@ end
 
   end
 
-  puts "El total de segundos es #{Telefono.totalSegundos} usando #{Telefono.totalCelulares} dispositivos"
-
-
-  
+  puts "El total de segundos es #{Telefono.totalSegundos} usando #{Telefono.totalCelulares} dispositivos" 
