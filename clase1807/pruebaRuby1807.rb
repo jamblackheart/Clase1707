@@ -30,7 +30,7 @@
 #   puts "el total de impares es es: " + impares.to_s
 
  #telefonicos con nombres al 
-agenda = []
+
 persona = {}
 
 nombre = ""
@@ -48,7 +48,7 @@ telefono = ""
      # acá va el código que se va a repetir mientras la condición sea verdadera
   end
 
-
+  
   puts "Los datos son #{persona}"
 
 
