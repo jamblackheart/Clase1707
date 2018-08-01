@@ -1,0 +1,7 @@
+001,Hamburgueza,12500,true
+002,Perro,6500,true
+003,Chuzo,9500,true
+004,Papitas,4500,true
+005,salchipapas,8000,true
+006,churipio,13000,true
+007,otro,5220,true

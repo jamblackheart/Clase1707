@@ -72,7 +72,7 @@ class Telefono
         @@segundosTotales
     end
 
-    def self.totalCelulares()
+    def self.totalCelulares
         @@conta
     end
 
